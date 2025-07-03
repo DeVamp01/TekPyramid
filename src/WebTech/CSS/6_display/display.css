@@ -1,0 +1,18 @@
+.container{
+    height: 400px;
+    width: 800px;
+    border: 5px,dotted;
+}
+.container>.box{
+    margin: 10px;
+    height: 50px;
+    width: 80px;
+    border: 5px,groove;
+}
+
+.container>#box2{
+    display:none;
+}
+    .container>#box1{
+        display: inline-block;
+    }

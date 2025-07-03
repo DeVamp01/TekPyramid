@@ -1,0 +1,23 @@
+/* https://www.geeksforgeeks.org/css/css-attribute-selector/ */
+
+#con1{
+    background-color: burlywood;
+    height: 200px;
+}
+/*descendant selector*/
+#con1 h2{
+    color: brown;
+}
+
+#con2{
+    background-color: coral;
+}
+/*direct child selector*/
+#con2 >h2{
+    color: aliceblue;
+}
+
+
+#con2 .box>h2{
+    color:lawngreen;
+}

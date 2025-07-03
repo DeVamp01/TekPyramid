@@ -1,0 +1,490 @@
+body{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-primary{
+    width: 100%;
+    display: flex;
+}
+.bg-primary a{
+    color: white;
+    font-weight: 200;
+    font-size: small;
+}
+a{    text-decoration: none;}
+.bg-primary img{
+    height: 15px;
+}
+.bg-primary #onebgul{
+display: flex;
+gap: 15px;
+padding-left: 15px;
+}
+
+
+.bg-primary #twobgul{
+    
+display: flex;
+position: absolute;
+right: 75px;
+gap: 25px;
+padding-left: 15px;
+}
+.stickytop1{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    position:sticky;
+    top: 0;
+    z-index: 100;
+    background-color: antiquewhite;
+    display: flex;
+    box-shadow: 0px 3px 2px rgba(239, 236, 236, 0.982);
+
+}
+.stickytop1 #nameB{
+display: flex;
+margin-left: 100px;
+}
+
+#nameB{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#st1d2 ul{
+    
+display: flex;
+gap: 15px;
+}
+#st1d2{
+    margin-top: 11px;
+    font-size: smaller;
+    position: absolute;
+    right: 75px;
+    
+}
+#st1d2 a{
+    color: black;
+}
+.image1 img{
+    height: 500px;
+    width: 100%;
+    z-index: 0;
+    
+}
+#innerImg {
+
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 100px;
+    z-index: 1;
+}
+#innerImg{
+    color: white;
+    width: 400px;
+}
+.image1 h1{
+    width: 500px;
+}
+#spaninimage{
+    font-size: 60px;
+
+}
+#innerImg button{
+    border-radius: 10px;
+    border: 1px;
+    width: 160px;
+    height:50px;
+    color: white;
+    background-color: cornflowerblue;
+}
+#innerImg a img{
+    margin-left: 20px;
+    position: relative;
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+    background-color: silver;
+    border-radius: 100px;
+}
+#innerImg a{
+    color: white;
+}
+#section1{
+    height: 350px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#section1 div{
+    padding: 15px;
+    box-shadow: 0px 10px 10px rgba(239, 236, 236, 0.982);
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+    
+    
+}
+#section1 div:hover{
+    
+    border: 1px black solid;
+    color: white;
+    background-color:blueviolet;
+    position:relative ;
+    top: -5px;
+    
+}
+#art1{ 
+    padding: 10px;
+    height: 125vh;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#aboutheading{
+   width: fit-content;
+   
+}
+#aboutheading h6{
+    border: 0px black solid;
+    border-radius: 100px;
+    height: fit-content;
+    padding:10px;
+    background-color:aqua;
+    font-size: smaller;
+    letter-spacing: 0.5px;
+    color: blue;
+}
+#art1line2{
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#art1line2 span{
+    color: blue;
+    letter-spacing: 0.5px;
+}
+#art1In{
+    display: flex;
+    gap: 50px;
+}
+#art1In1 img{
+    width: 510px;
+    height: 510px;
+}
+#art1In2{
+    display: flex;
+    flex-flow: column ;
+    width: 510px;
+    height: 550px;
+}
+#art1In2d2d1,#art1In2d2d2{
+height: 45px;
+border-radius: 100px;
+width: 55px;
+box-shadow: 0px 0px 9px  rgba(157, 155, 155, 0.982);
+display: flex;
+    align-items: center;
+    padding-left: 18px;
+}
+#art1In2d1 div img, #art1In2d2 div img{
+    
+    border: 0cap solid wheat;
+    height: 10px;
+    scale:1.5;
+       
+}
+#art1In2d1 ,#art1In2d2{
+    display: flex;
+    gap: 20px;
+    
+}
+.sone{
+      display: flex;
+      justify-content: space-between;
+}
+.stwo{
+    background-color: lightgrey;
+    overflow: hidden;
+    height: 8px;
+}
+.stwo2{
+    background-color: #3b82f6; 
+    height: 100%;
+    color: white;
+    text-align: right;
+    padding-right: 5px;
+    line-height: 25px;
+}
+#skills{
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 35% 35%;
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20PX;
+    margin: 20px;
+    
+}
+#skills>div{
+    padding: 15px;
+}
+#stats{
+    width: 100%;
+display: flex;
+
+gap: 20px;
+justify-content: center;
+height: 300px;
+margin-top: 100px;
+align-items: center;
+text-align: center;
+}
+#stats>div{
+    width: 200px;
+    height: 150px;
+    background-color: #3b82f6;
+}
+.statsimg{
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    z-index: 1;
+    scale: 1.1;
+    border-radius: 100px;
+    border: 5px white solid;
+    left: 79px;
+    background-color: bisque;
+    top: -27px;
+    overflow: hidden;
+}
+#stats img{
+    scale: 0.8;
+    
+    background-color:bisque;
+    height: 40px;
+}
+.statsbox{
+    z-index: 0;
+    padding-top: 40px;
+    background-color: aliceblue;
+    height: inherit;
+    position: relative;
+    top: -50px;
+}
+#clients{
+    margin-top: 35px;
+    padding-top: 10px;
+    background-color: aliceblue;
+    width: 100%;
+    height: 100px;
+    align-content: center;
+    margin-bottom: 50px;
+}
+#clients div marquee div{
+    display: flex;
+    gap: 150px;
+}
+#clients img{
+    scale: 0.8;
+}
+#services{
+    display: flex;
+    flex-direction: column;
+text-align: center;
+align-items: center;
+margin-bottom: 50px;
+}
+
+#servicesBox{
+
+    display: grid;
+grid-template-columns: 350px 350px 350px;
+justify-content: space-evenly;
+
+
+}
+#servicesBox>div{
+    margin-top: 50px;
+    width: 320px;
+    height: 350px;
+    align-content: center;
+    justify-items: center;
+    box-shadow: 0 0 10px 1.5px antiquewhite;
+}
+#services >div:first-child{
+    border-radius: 100px;
+    width: 90px;
+    background-color: aqua;
+    margin-bottom: 15px;
+}
+
+#services img{
+    height: 30px;
+    width: 30px;
+}
+#services .bg-light{
+width: 50px;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 0 0 1px 1.5px black;
+} 
+#sclients{margin-top: 100px;
+    background-color: aliceblue;
+     display: flex;
+    flex-direction: column;
+text-align: center;
+align-items: center;
+margin-bottom: 50px;
+padding-top: 50px;
+height: 100vh;
+}
+#sclients >div:first-child{
+    border-radius: 100px;
+    width: 90px;
+    background-color: aqua;
+    margin-bottom: 15px;
+}
+#sclientsBox{
+display: flex;
+gap: 20px;
+
+}
+#sclientsBox>div{
+    margin-top: 50px;
+    width: 220px;
+    height: 320px;
+    align-content: center;
+    justify-items: center;
+    box-shadow: 0 0 10px lightblue;
+    overflow: hidden;
+}
+#sclients img{
+    margin-top: -19px;
+width: 220px;
+height: 240px;
+
+}
+#sclientsBox>div div:last-child{
+    margin-top: -5px;
+    font-size: smaller;
+    
+}
+
+#contact{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 50px;
+padding-top: 50px;
+height: 130vh;
+}
+#conBox1 img{
+height: 20px;
+width: 20px;
+}
+#conBox1{
+    box-shadow: 0 0 10px lightblue;
+    padding: 20px;
+
+}
+#contact>div:first-child{
+    text-align: center;
+    border-radius: 100px;
+    width: 90px;
+    background-color: aqua;
+    margin-bottom: 15px;
+}
+#conBox1>div{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+ #contact .bg-info-subtle{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 50px;
+    border-radius: 100px;
+
+}
+#conBox{
+    display: flex;
+    gap: 30px;
+    
+}
+#conBox2{
+    padding: 30px;
+    box-shadow: 0 0 10px lightblue;
+    
+}
+#femail{
+    margin-left: 190px;
+}
+#name{
+    width: 250px;
+}
+#email{
+    width: 250px;
+    margin-left: 20px;
+}
+#msg{
+    height: 220px;
+}
+.fsubmit{
+    background-color: #3b82f6;
+    color: white;
+    margin-left: 190px;
+    border-radius: 100px;
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;
+}
+.mtt{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    opacity: 0.8;
+    visibility: visible;
+}
+#portfolio{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 50px;
+padding-top: 50px;
+height: 100vh;
+box-shadow: 0px 1px 30px 10px aliceblue inset;
+}
+#portfolio>div:first-child{
+    text-align: center;
+    border-radius: 100px;
+    width: 110px;
+    background-color: aqua;
+    margin-bottom: 15px;
+
+}
+#portfolio button{
+    width: 56px;
+    justify-content: center;
+}
+#portfolio img{
+    width: 250px;
+    height: 180px;
+}
+#pf-images{
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}

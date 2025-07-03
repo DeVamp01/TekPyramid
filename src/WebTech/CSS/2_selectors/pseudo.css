@@ -1,0 +1,77 @@
+nav{
+    background-color: antiquewhite;
+}
+
+nav>h2:hover{
+font-style: italic;
+background-color:tomato;
+width: fit-content;
+
+
+}
+header{
+    height: 200px;
+    background-color:teal;
+    border: 20px;
+    border-radius: 100px;
+    border-style: ridge;
+    border-color: blue;
+    border-inline-end-color: brown;
+    border-inline-start-color: burlywood;
+}
+header>h1:active{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section>h1:nth-child(3){
+    color: yellow;
+}
+section{
+    background-color: violet;
+}
+section>ol{
+    background-color: aqua;
+}
+section>ol>li:nth-child(2n+1){
+    background-color: antiquewhite;
+}
+section>ol>li:nth-child(2n){
+    background-color: burlywood;
+}
+body{
+ background-color: thistle;   
+}
+article>h1{
+    text-align: center;
+    font-size: 5cap;
+
+}
+article > p:first-letter{
+    font-size: 50px;
+
+}
+article>p:first-line{
+    font-style: italic;
+}
+article>p::before{
+    content:"!@#$%^&*";
+    color: red;
+}
+/* ::selection{
+    background-color: skyblue;
+    color: white;
+} */
+
+::selection{
+    background-color:yellowgreen;
+    color:beige;
+}
+article>ol>li:nth-child(2n)::marker{
+    color:red;
+}
+
+#in>input{
+    color: red;
+    background-color:blue;
+}

@@ -1,0 +1,121 @@
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 0.5%;
+            width: 100%;
+            
+        }
+        header div:first-child{
+            display:flex;
+            gap: 20px;
+            text-decoration: underline;
+            
+        }
+        header .navright{
+            display: flex;
+            gap: 35px;
+            
+        }
+        header a{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: 500;  
+            color: black;          
+        }
+        header a:hover{
+            text-decoration: none;
+            color: slateblue;
+        }
+        header a:active{
+            color: brown;
+        }
+
+        main{
+            height: 450px;
+        }
+        
+        footer{
+            
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            display: block;
+            height: fit-content;
+            background-color: #f0f0f5;
+        }
+       
+        footer .download{ padding: 20px;
+            
+            background-color: #f0f0f5;
+            display: flex;
+            gap: 10px;
+            justify-content: space-evenly;
+            flex-direction: row;
+            padding-right: 60px;            
+        }
+        footer .download button{
+            border: solid black 2px;
+            border-radius: 15px;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            padding-left: 1px;
+            display: flex;
+            justify-self: end;
+            
+            text-align: left;
+            justify-content: space-evenly;
+        }
+       footer .download a button:hover{
+            cursor: pointer;
+        }
+        footer .download a{
+            width: 300px;
+            text-decoration: none;
+        }
+        footer .download p{
+            color: darkslategray;
+            width: 900px;
+            padding-left: 50px;
+            font-size: x-large;
+            font-weight: 900;
+            
+        }
+        
+        footer .about{ padding: 10px;
+            
+            background-color: #f0f0f5;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            flex-direction: row;
+            
+        }
+        
+        footer .about .ul li a{
+            color: gray;
+            text-decoration: none;
+            line-height: 25px;
+            font-weight: lighter;
+            
+        }
+        footer .about #ul-2 div {
+            display: flex;
+            flex-direction: row;
+            gap: 7px;
+        }
+        #ul-1, #ul-2{
+            margin-top: 150px;
+        }
+       
+       

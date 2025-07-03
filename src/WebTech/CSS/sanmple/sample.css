@@ -1,0 +1,32 @@
+
+div{
+    margin: 5px;
+    padding: 30px;
+    width: 300px;
+    border: 5px;
+    border-style: solid;
+    text-align: center;
+    background-color: red;
+    
+}
+div h1{font-size: larger;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+}
+
+div>p{
+    font-size: smaller;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+}div button{
+    border-radius: 10px;
+    
+    padding: 5px;
+    margin: 1px;
+    width: 300px;
+}
+div button:hover{
+    background-color: aqua;
+    cursor:pointer;
+}

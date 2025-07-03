@@ -1,0 +1,41 @@
+nav{
+    background-color: orange;
+    height: 100px;
+    
+
+}
+#m1{
+    height: 150px;
+    background-color:aquamarine;
+}
+/*id selector*/
+#logo{
+    color: aliceblue;
+
+}
+section{
+    border: 10px;
+    border-width: 20px;
+    border-radius: 100px;
+    border-color: purple;
+    border-style: ridge;
+    border-top: 10px;
+    border-bottom: 10px;
+    height: 150px;
+    background-color: green;
+}
+/*class selector*/
+
+.par{
+    color: thistle;
+}
+/*universal selector*/
+*{  
+    text-align: center;
+    font-style: italic;
+}
+/*group*/
+#logo,.par,p{
+    text-transform: uppercase;
+    text-decoration: underline;
+}

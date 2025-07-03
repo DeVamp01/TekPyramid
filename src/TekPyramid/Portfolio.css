@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+aside{width:200px ;
+    height: 100%;
+    padding-top: 10px;
+    background-color: #9DBEB7;
+    position: fixed;
+    overflow: auto;
+    scroll-behavior: smooth;
+    
+    
+}
+aside{
+  scrollbar-width: thin;
+  scrollbar-color:BEIGE BLACK;
+  scroll-behavior: smooth;
+}
+*{
+  scrollbar-width: auto;
+  scrollbar-color:lightblue black;
+}
+
+aside #asImage img{
+    height: 90px;
+    width: 90px;
+    border: 7px purple solid;    
+    border-radius: 100px;
+    align-self: center;
+}
+#asImage{
+   
+   display: flex;
+   flex-flow: column wrap;
+}
+#asName{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+#social ul {
+    margin-top: 25px;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+aside #social ul li img{
+    display: flex;
+
+height: 15px;
+width: 15px;
+}
+#navbar ul{ 
+    margin-top: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+#navbar ul li a{
+display: flex;
+gap: 7px;
+}
+
+main{
+   padding: 0;
+    margin-left: 200px;;
+    width: 810px;
+   
+}
+
+#firstPage{
+    height:100vh;
+    width: 131.4%;
+    overflow: hidden;  
+    display: flex;
+    justify-content: center;
+}
+#firstPage img{
+    height: inherit;
+    scale:2.5;
+    margin-right: 300px;
+    
+}
+.z-1{
+    font-family: Cambria, 'Cochin', Times, serif;
+    font-size: 50px;
+}
+

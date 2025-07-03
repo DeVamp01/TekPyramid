@@ -1,0 +1,17 @@
+.box1{
+    height: 250px;
+    width: 300px;
+    padding: 20px;
+    
+    background-color: aqua;
+}
+.box2{
+        border: 10px,groove,green;
+    border-radius: 20px;
+        height: 250px;
+    padding: 20px;
+    width: 300px;
+    background-color: beige;
+    padding: 20px;
+    
+}
