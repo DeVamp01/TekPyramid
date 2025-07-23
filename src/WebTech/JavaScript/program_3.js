@@ -11,10 +11,7 @@ for (let k = 0; k < ar.length; k++) {
     for (let j = 0; j < Math.ceil(ar.length/n);j++) {
         
         for (let i = 0; i <n; i++,k++) {
-            if(ar.length<=7
-
-                
-            ) break;
+            if(ar.length<=7) break;
             newar[j][i]=ar[k];
             
         }
