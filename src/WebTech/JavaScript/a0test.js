@@ -10,7 +10,7 @@
 // console.log(null>0)//false
 // console.log(null<0)//false
 // console.log(null<0)//false
-//console.log(6&5);
+// console.log(6&5);//4
 
 
 

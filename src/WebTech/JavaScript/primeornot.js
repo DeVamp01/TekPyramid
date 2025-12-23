@@ -7,4 +7,4 @@ for(let i=2;i<=a/2;i++){
 return `${a} is prime`;
 
 }
-console.log(prime(13));
+console.log(prime(23));

@@ -8,10 +8,10 @@ const array = [
   { name: "E", age: 8, cls: "6" }
 ];
 
-const resultObj=array.reduce((acc, {name,age,cls})=>{
-if(!acc[cls])        acc[cls]={};
-if(!acc[cls][age])   acc[cls][age]=[];
-acc[cls][age].push(name);  
-return acc;
- },{} );
-console.log(resultObj);
+const res={}
+for(let i of array){
+if(!res[i.cls])        res[i.cls]={};
+if(!res[i.cls][i.age])   res[i.cls][i.age]=[];
+res[i.cls][i.age][res[i.cls][i.age].length]=i.name; 
+}
+console.log(res);

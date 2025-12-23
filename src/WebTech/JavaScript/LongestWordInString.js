@@ -10,13 +10,3 @@ for (const i of s1) {
     l1=i;
 }
 console.log(l1);
-// console.log(s1);
-// let Length=0
-// let index=0
-// for (let i = 0; i < s1.length; i++) {
-//     if(Length<s1[i].length){
-//         Length=s1[i].length
-//         index=i
-//     }
-    
-// }

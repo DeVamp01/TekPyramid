@@ -1,4 +1,4 @@
-var n=10,a=0,b=1,i=0;
+var n=10,a=0,b=1,i=2;
 
 var output=a+' '+b;
 while (n>i) {

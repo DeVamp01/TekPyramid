@@ -5,4 +5,4 @@ for (let i = 0; i < s1.length; i++) {
 }
 console.log(s2);
 
-console.log(s1==s2)
+console.log(s1==s2?'palindrome':'not a pali')

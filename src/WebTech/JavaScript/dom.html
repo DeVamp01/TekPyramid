@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="podi">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam facere incidunt totam ad! Voluptatum totam fugiat assumenda quas ut ad maxime ex est alias aliquam, quaerat fuga aperiam, velit eos eum nisi nihil enim odio fugit quisquam eius deleniti consequuntur tempora asperiores. Qui aperiam commodi cumque at ipsam soluta ad nesciunt, modi illum similique reprehenderit. Perspiciatis vero pariatur, laborum nisi quaerat odio voluptates illum tempora quia possimus. Porro pariatur, rem, a suscipit sit nemo vitae nisi quo repellat sed facilis voluptatibus, culpa deleniti est ad! Molestiae unde aut ut alias sit quidem, maiores incidunt perferendis cumque sed! Necessitatibus, tempore eum.</p>
+    </div>
+    <div>
+        <ul id="first" ><li>items1</li>
+            <li>items2</li>
+            <li>items3</li>
+            <li>items4</li>
+            <li>items5</li>
+        </ul>
+    </div>
+
+    <script>
+        let doc=document.getElementById('first').children;
+        console.log(doc[2]);
+
+        let para =document.createElement("p")
+        para.textContent="p created using js"
+        document.body.prepend(para)
+        
+    </script>
+</body>
+
+
+
+</html>
